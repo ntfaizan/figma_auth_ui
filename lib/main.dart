@@ -1,4 +1,5 @@
 import 'package:figma_auth_ui/pages/login_page.dart';
+import 'package:figma_auth_ui/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-          home: const LoginPage(),
+          home: const SignupPage(),
         );
       },
     );
