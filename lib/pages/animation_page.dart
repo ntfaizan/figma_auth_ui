@@ -7,6 +7,14 @@ class AnimationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Lottie Animation'),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: [],
+        ),
+      ),
       body: Column(
         children: [
           Lottie.asset(
